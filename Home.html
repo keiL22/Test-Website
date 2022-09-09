@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="shortcut icon" type="image/png" href="Images/wandcursor.png"/>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <style>
+
+/* full page style */
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Pangolin&family=Walter+Turncoat&display=swap');
+
+  body {
+    font-size: 14px;
+    font-family: 'Walter Turncoat', cursive;
+    color: #000;
+    background-image:url('Images/magicbg.png');
+    background-repeat: repeat; 
+    background-attachment: fixed;
+    line-height:1.5;
+    letter-spacing:0px;
+    word-spacing:5px;
+    cursor: url(Images/wandcursor.png), auto;
+    }
+  
+.vignette {
+  position:fixed;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  box-shadow:inset 0 0 200px rgba(0,0,0,0.5);
+}
+
+  hr.magic {
+    height: 50px;
+    background: url('Images/divider1.png') no-repeat center;
+    border: 0;
+    }  
+  
+  hr.candy {
+    height: 50px;
+    background: url('Images/divider2.png') no-repeat center;
+    border: 0;
+    }  
+  
+  hr.scary {
+    height: 50px;
+    background: url('Images/divider3.png') no-repeat center;
+    border: 0;
+    }  
+  
+  hr.quill {
+    height: 50px;
+    background: url('Images/divider4.png') no-repeat center;
+    border: 0;
+    }  
+
+  a:link, a:active, a:visited {
+    color: #662619; 
+    text-decoration:none;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff, 0 0 3px rgba(0,0,0,0.5), 0 0 3px rgba(0,0,0,0.5), 0 0 3px rgba(0,0,0,0.5);
+    -webkit-transition: all 0.2s linear; 
+    -moz-transition: all 0.2s linear; 
+    transition: all 0.2s linear;
+    }
+ 
+  a:hover {
+    color: #fff;
+    text-shadow: -1px 0 #662619, 0 1px #662619, 1px 0 #662619, 0 -1px #662619, 0 0 3px rgba(0,0,0,0.5), 0 0 3px rgba(0,0,0,0.5), 0 0 3px rgba(0,0,0,0.5);
+    -webkit-transition: all 0.2s linear; 
+    -moz-transition: all 0.2s linear; 
+    transition: all 0.2s linear;
+    cursor: url(Images/wandcursor.png), auto;
+    }
+ 
+  b, strong {
+    color:#000;
+    font-weight:900;
+    }
+
+
+/* main containers */
+  
+  #contain {
+    text-align: center;
+    width: 557px;
+    border: 1px solid none;
+    background-color: none;
+    padding:-5px;
+    margin: auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    position:relative;
+    z-index:5;
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+    -webkit-filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+    }
+  
+  #containext {
+    text-align: center;
+    width: 559px;
+    background-color: none;
+    padding: 0px;
+    margin: auto;
+    margin-top:100px;
+    overflow:visible;
+    }
+
+/* banner and title */
+
+  div.pic {
+    content: url('Images/magictitle.png');
+    z-index:99999999999;
+    text-align: center;
+    background-color: none;
+    width: 535px;
+    height:190px;
+    margin: auto;
+    margin-bottom:0px;
+    margin-top:5px;
+    padding:5px;
+    }
+
+  #titlebar {
+    text-align: center;
+    color:#fff;
+    background-color: #798293 ;
+    width: 545px;
+    height:35px;
+    border: 1px solid #3673A2;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+    font-size:16px;
+    border-radius: 15px 15px 0 0;
+    }
+
+/* scrolls side navigation */
+
+  #scrollcontainer {
+    background-color:none;
+    width:400px;
+    height:406px;
+    position:relative;
+    text-align:left;
+    z-index:3;
+    margin-top:-510px;
+    margin-left:-125px;
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+    -webkit-filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+    }
+
+  #scroll1 {
+    background-color: #F3ECC7 ;
+    background-image:url('Images/grungetile.png');
+    width: 300px;
+    height:100px;
+    line-height:100px;
+    border: 1px solid #B1AB88;
+    margin-bottom:50px;
+    margin-left:95px;
+    -webkit-transition: all 0.3s linear; 
+    -moz-transition: all 0.3s linear; 
+    transition: all 0.3s linear;
+    }
+  
+  #scroll1:hover {
+    margin-left:-95px;
+    -webkit-transition: all 0.3s linear; 
+    -moz-transition: all 0.3s linear; 
+    transition: all 0.3s linear;
+    }
+  
+  #scroll2 {
+    background-color: #F3ECC7 ;
+    background-image:url('Images/grungetile.png');
+    width: 300px;
+    height:100px;
+    line-height:100px;
+    border: 1px solid #B1AB88;
+    margin-bottom:50px;
+    margin-left:110px;
+    -webkit-transition: all 0.3s linear; 
+    -moz-transition: all 0.3s linear; 
+    transition: all 0.3s linear;
+    }  
+  
+  #scroll2:hover {
+    margin-left:-110px;
+    -webkit-transition: all 0.3s linear; 
+    -moz-transition: all 0.3s linear; 
+    transition: all 0.3s linear;
+    }
+  
+  #scroll3 {
+    background-color: #F3ECC7 ;
+    background-image:url('Images/grungetile.png');
+    width: 300px;
+    height:100px;
+    line-height:100px;
+    border: 1px solid #B1AB88;
+    margin-bottom:50px;
+    margin-left:100px;
+    -webkit-transition: all 0.3s linear; 
+    -moz-transition: all 0.3s linear; 
+    transition: all 0.3s linear;
+    }
+  
+  #scroll3:hover {
+    margin-left:-100px;
+    -webkit-transition: all 0.3s linear; 
+    -moz-transition: all 0.3s linear; 
+    transition: all 0.3s linear;
+    }
+  
+  div.scrollimg {
+    content: url('Images/scroll.png');
+    height:150px;
+    width:40px;
+    margin-top:-25px;
+    margin-left:-20px;
+    z-index:4;
+    float:left;
+    }
+  
+/* main content */
+  
+  #content {
+    font-weight:normal;
+    background-color:#F3ECC7;
+    background-image:url('Images/grungetile.png');
+    color:#7B625E;
+    border:1px solid #B1AB88;
+    width:535px;
+    height:500px;
+    display:block;
+    margin:auto;
+    margin-top:5px;
+    margin-bottom:5px;
+    overflow:auto;
+    padding:5px;
+    }
+  
+/* footer */
+
+  #footer {
+    margin-top:5px;
+    background-color:#798293;
+    color:#fff;
+    border:1px solid #3673A2;
+    width:545px;
+    height:35px;
+    margin:auto;
+    margin-bottom:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:0 0 15px 15px;
+    }   
+
+
+/* webkit stuff */
+  
+  ::-webkit-scrollbar-thumb {
+    min-height: 60px;
+    border-left: 4px solid #F3ECC7;
+    border-right: 4px solid #F3ECC7;
+    border-top: 5px solid #F3ECC7;
+    border-bottom: 5px solid #F3ECC7;
+    background: #662619;
+    }
+ 
+  ::-webkit-scrollbar {
+    width: 11px;
+    height: 10px;
+    border-left: 5px solid #F3ECC7;
+    border-right: 5px solid #F3ECC7;
+    border-top: 5px solid #F3ECC7;
+    border-bottom: 5px solid #F3ECC7;
+    background: #B1AB88;
+    }
+  
+</style>
+</head>
+<body>
+
+<div class="vignette"></div>
+
+<div id="containext">
+
+<div id="contain">
+<a style="display:block"><div id="pic"><div class="pic"></div></div></a>
+
+<div id="titlebar">
+Home Page
+ </div>
+ 
+   <div id="content">
+   <br>Test<br>
+    <br><hr class="magic">
+    <br>Test<br>
+    <br><hr class="magic">
+    <br>Test
+  </div>
+ 
+  <div id="footer">
+  <a>Made by Keisuke Lester</a> 
+  </div>
+  </div>
+      <div id="scrollcontainer">
+<a href="Home.html">
+<div id="scroll1">
+<div id="scrollimg"><div class="scrollimg"></div></div>
+<!--First Link Text-->
+Home
+</div>
+</a>
+
+<a href="Portfolio.html">
+<div id="scroll2">
+<div id="scrollimg"><div class="scrollimg"></div></div>
+<!--Second Link Text-->
+Portfolio
+</div>
+</a>
+
+<a href="Contact.html">
+<div id="scroll3">
+<div id="scrollimg"><div class="scrollimg"></div></div>
+<!--Third Link Text-->
+Contact
+</div>
+</a>
+
+</div>
+</div>
+      </body>
+</html>
