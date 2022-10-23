@@ -68,23 +68,31 @@ body{
 	
 }
 
-.body-table{
-	margin-top: 110px;
+.body-txt{
+	display: flex;
 }
 
 .body-left{
-	width: 54%;
+	font-size:.7vw;
+	max-height: 500px;
+	overflow-y: overlay;
+	margin-left: 20px;
+	margin-top: 110px;
+	margin-right: 70px;
+	min-width: 52%;
+	max-width: 52%;
 	border: 3px solid #B1D5FD;
 	padding: 10px;
 }
 
 .body-right{
+	font-size:.7vw;
+	max-height: 360px;
+	overflow-y: overlay;
+	margin-right: 20px;
+	margin-top: 250px;
 	border: 3px solid #B1D5FD;
 	padding: 10px;
-}
-
-.body-space{
-	width: 30px;
 }
 
 /* Header and Footer banners */
