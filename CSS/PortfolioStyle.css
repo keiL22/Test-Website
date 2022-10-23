@@ -78,20 +78,20 @@ body{
 /* Header and Footer banners */
 .banner {
 	margin-left: -40px;
-    	height: 80px;
-    	float: left;
-    	color: #FFF;
-    	text-align: center;
-    	font-size: 30px;
+	height: 80px;
+	float: left;
+	color: #FFF;
+	text-align: center;
+	font-size: 45px;
   }
 .topbanner{
-    	width: 550px;
-    	height: 90px;
-    	line-height: 80px;
-    	position: absolute;
-    	transform:rotate(-1deg);
-    	background: #d9b1fd;
-    	text-shadow: 
+	width: 550px;
+	height: 90px;
+	line-height: 80px;
+	position: absolute;
+	transform:rotate(-1deg);
+	background: #d9b1fd;
+	text-shadow: 
 		-1px  0px #a558e8, 
 		 0px  1px #a558e8, 
 		 1px  0px #a558e8, 
@@ -104,18 +104,18 @@ body{
   }
 .topbanner:before{ /* Top banner overhang */
 	content: "";
-    	position: absolute;
-    	top: -8.5px;
-    	left: 1px;
-    	border-bottom: 9px solid #c99bf1;
-    	border-left: 10px solid transparent;
+	position: absolute;
+	top: -8.5px;
+	left: 1px;
+	border-bottom: 9px solid #c99bf1;
+	border-left: 10px solid transparent;
   }
-  .topbanner:after{ /* Top banner asymmetrical side */
+.topbanner:after{ /* Top banner asymmetrical side */
 	content: "";
-    	position: absolute;
-    	right: -14.5px;
-    	border-bottom: 70px solid transparent;
-    	border-left: 20px solid #d9b1fd;
+	position: absolute;
+	right: -14.5px;
+	border-bottom: 70px solid transparent;
+	border-left: 20px solid #d9b1fd;
 }
 
 /*Footer*/
