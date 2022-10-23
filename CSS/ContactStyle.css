@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;600&display=swap');
+
+body{
+	font-family: 'Mitr', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0;
+	background-color: #fdb1d5;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+.navi-box{
+
+	max-width: 1000px;
+	background-color: #ffffff;
+	margin: 80px auto 10px auto;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.titlebar{
+	max-width: 1000px;
+	background-color: #ffffff;
+	margin: 10px auto 10px auto;
+	padding: 20px 20px 600px 20px;
+	border-radius: 20px;
+}
+
+footer{
+	max-width: 1000px;
+	background-color: #ffffff;
+	margin: 10px auto 10px auto;
+	padding: 20px 20px 20px 20px;
+	border-radius: 20px;
+}
+
+.navi-btn{
+
+	font-family: 'Mitr', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #e087b0;
+	text-transform: uppercase;
+	text-align: left;
+
+	background-color: #f19bc3;
+	background-image: linear-gradient(to right, #FFFFFF 50%, transparent 50%);
+	background-size: 200%;
+	background-position: 0%;
+
+	width: 24.1%;
+	margin-left: 1.5px;
+	margin-right: 1.5px;
+	margin-bottom: 5px;
+	padding: 10px 20px;
+	border: 3px solid #f19bc3;
+	border-radius: 20px;
+	transition: all 0.4s ease-in-out;
+}
+
+.navi-btn:hover{
+	color: #FFFFFF;
+	background-position: 100%;
+	cursor: pointer;
+}
