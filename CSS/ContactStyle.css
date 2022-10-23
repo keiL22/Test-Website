@@ -1,3 +1,5 @@
+/*CSS for Contact Page*/
+
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;600&display=swap');
 
 body{
@@ -15,11 +17,15 @@ body{
 	outline: none;
 }
 
+ /*Fixing Height of page*/
+
 .body-box{
 
 	max-width: 1014px;
 	margin: 100px auto;
 }
+
+ /*Box that holds the navigation buttons*/
 
 .navi-box{
 
@@ -39,6 +45,8 @@ body{
 	animation-fill-mode: forwards;
 }
 
+ /*Main text box*/
+
 .titlebar{
 	max-width: 1000px;
 	background-color: #ffffff;
@@ -55,6 +63,8 @@ body{
 	animation-delay: .1s;
 	animation-fill-mode: forwards;
 }
+
+ /*Footer*/
 
 footer{
 	
@@ -75,6 +85,8 @@ footer{
 	animation-delay: .1s;
 	animation-fill-mode: forwards;
 }
+
+ /*Styling of the buttons*/
 
 .navi-btn{
 
@@ -100,6 +112,8 @@ footer{
 	transition: all 0.5s ease-in-out;
 }
 
+ /*Styling of the button of the page you are currently on*/
+
 .current-btn{
 	font-family: 'Mitr', sans-serif;
 	font-size: 18px;
@@ -119,6 +133,8 @@ footer{
 	border-radius: 5px;
 }
 
+ /*For button text annimation*/
+
 .btn-text{
 	opacity: 0;
 
@@ -128,12 +144,16 @@ footer{
 	animation-fill-mode: forwards;
 }
 
+ /*Hover for the working buttons*/
+
 .navi-btn:hover{
 	color: #FFFFFF;
 	border: 3px solid #f19bc3;
 	background-position: 100%;
 	cursor: pointer;
 }
+
+ /*fade annimation for the boxes*/
 
 @keyframes fadeIn {
   0% { opacity: 0; }
