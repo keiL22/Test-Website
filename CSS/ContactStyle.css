@@ -17,7 +17,7 @@ body{
 	outline: none;
 }
 
- /*Fixing Height of page*/
+/*Fixing Height of page*/
 
 .body-box{
 
@@ -25,7 +25,7 @@ body{
 	margin: 100px auto;
 }
 
- /*Box that holds the navigation buttons*/
+/*Box that holds the navigation buttons*/
 
 .navi-box{
 
@@ -36,6 +36,7 @@ body{
 	border-radius: 5px;
 	box-shadow: 
 		0px 5px 15px 0px #f19bc3;
+	filter: drop-shadow(0px 0px 3px #e33686);
 
 	opacity: 0;
 
@@ -45,30 +46,82 @@ body{
 	animation-fill-mode: forwards;
 }
 
- /*Main text box*/
+/*Main text box*/
 
 .titlebar{
 	max-width: 1000px;
 	background-color: #ffffff;
 	margin: 10px auto 10px auto;
-	padding: 20px 20px 600px 20px;
+	padding: 30px 0px 30px 30px;
 	border-radius: 5px;
 	box-shadow: 
 		0px 5px 15px 0px #f19bc3;
+	filter: drop-shadow(0px 0px 3px #e33686);
 
 	opacity: 0;
-
+	
 	animation-name: fadeIn;
-	animation-duration: 1.2s;
+	animation-duration: 1.4s;
 	animation-delay: .1s;
 	animation-fill-mode: forwards;
+	
 }
 
- /*Footer*/
+.body-txt{
+	border: 3px solid #fdb1d5; 
+	width: 50%;
+	margin-top: 110px;
+	padding: 10px;
+}
+
+/* Header and Footer banners */
+.banner {
+	margin-left: -40px;
+    	height: 80px;
+    	float: left;
+    	color: #FFF;
+    	text-align: center;
+    	font-size: 30px;
+  }
+.topbanner{
+    	width: 550px;
+    	height: 90px;
+    	line-height: 80px;
+    	position: absolute;
+    	transform:rotate(-1deg);
+    	background: #fdb1d5;
+    	text-shadow: 
+		-1px  0px #e8589b, 
+		 0px  1px #e8589b, 
+		 1px  0px #e8589b, 
+		 0px -1px #e8589b,
+
+		 0px  0px 4px #e8589b, 
+		 0px  0px 4px #e8589b, 
+		 0px  0px 4px #e8589b;
+	filter: drop-shadow(0px 0px 3px #e33686);
+  }
+.topbanner:before{ /* Top banner overhang */
+	content: "";
+    	position: absolute;
+    	top: -8.5px;
+    	left: 1px;
+    	border-bottom: 9px solid #f19bc3;
+    	border-left: 10px solid transparent;
+  }
+  .topbanner:after{ /* Top banner asymmetrical side */
+	content: "";
+    	position: absolute;
+    	right: -14.5px;
+    	border-bottom: 70px solid transparent;
+    	border-left: 20px solid #fdb1d5;
+}
+
+/*Footer*/
 
 footer{
-	
-	color: #FFFFFF;
+
+	color: #000;
 
 	max-width: 1000px;
 	background-color: #ffffff;
@@ -77,11 +130,12 @@ footer{
 	border-radius: 5px;
 	box-shadow: 
 		0px 5px 15px 0px #f19bc3;
+	filter: drop-shadow(0px 0px 3px #e33686);
 
 	opacity: 0;
 
 	animation-name: fadeIn;
-	animation-duration: 1.4s;
+	animation-duration: 1.8s;
 	animation-delay: .1s;
 	animation-fill-mode: forwards;
 }
@@ -133,13 +187,13 @@ footer{
 	border-radius: 5px;
 }
 
- /*For button text annimation*/
+ /*For button text animation*/
 
 .btn-text{
 	opacity: 0;
 
 	animation-name: fadeIn;
-	animation-duration: 1.6s;
+	animation-duration: 1.8s;
 	animation-delay: .2s;
 	animation-fill-mode: forwards;
 }
@@ -153,7 +207,7 @@ footer{
 	cursor: pointer;
 }
 
- /*fade annimation for the boxes*/
+ /*fade animation for the boxes*/
 
 @keyframes fadeIn {
   0% { opacity: 0; }

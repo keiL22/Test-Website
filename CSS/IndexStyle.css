@@ -36,6 +36,7 @@ body{
 	border-radius: 5px;
 	box-shadow: 
 		0px 5px 15px 0px #9BC3F1;
+	filter: drop-shadow(0px 0px 3px #3686e3);
 
 	opacity: 0;
 
@@ -51,25 +52,76 @@ body{
 	max-width: 1000px;
 	background-color: #ffffff;
 	margin: 10px auto 10px auto;
-	padding: 20px 20px 600px 20px;
+	padding: 30px 0px 30px 30px;
 	border-radius: 5px;
 	box-shadow: 
 		0px 5px 15px 0px #9BC3F1;
+	filter: drop-shadow(0px 0px 3px #3686e3);
 
 	opacity: 0;
 	
 	animation-name: fadeIn;
-	animation-duration: 1.2s;
+	animation-duration: 1.4s;
 	animation-delay: .1s;
 	animation-fill-mode: forwards;
 	
+}
+
+.body-txt{
+	border: 3px solid #B1D5FD; 
+	width: 50%;
+	margin-top: 110px;
+	padding: 10px;
+}
+
+/* Header and Footer banners */
+.banner {
+	margin-left: -40px;
+    	height: 80px;
+    	float: left;
+    	color: #FFF;
+    	text-align: center;
+    	font-size: 30px;
+  }
+.topbanner{
+    	width: 550px;
+    	height: 90px;
+    	line-height: 80px;
+    	position: absolute;
+    	transform:rotate(-1deg);
+    	background: #B1D5FD;
+    	text-shadow: 
+		-1px  0px #589be8, 
+		 0px  1px #589be8, 
+		 1px  0px #589be8, 
+		 0px -1px #589be8,
+
+		 0px  0px 4px #589be8, 
+		 0px  0px 4px #589be8, 
+		 0px  0px 4px #589be8;
+	filter: drop-shadow(0px 0px 3px #3686e3);
+  }
+.topbanner:before{ /* Top banner overhang */
+	content: "";
+    	position: absolute;
+    	top: -8.5px;
+    	left: 1px;
+    	border-bottom: 9px solid #9BC3F1;
+    	border-left: 10px solid transparent;
+  }
+  .topbanner:after{ /* Top banner asymmetrical side */
+	content: "";
+    	position: absolute;
+    	right: -14.5px;
+    	border-bottom: 70px solid transparent;
+    	border-left: 20px solid #B1D5FD;
 }
 
 /*Footer*/
 
 footer{
 
-	color: #FFFFFF;
+	color: #000;
 
 	max-width: 1000px;
 	background-color: #ffffff;
@@ -78,11 +130,12 @@ footer{
 	border-radius: 5px;
 	box-shadow: 
 		0px 5px 15px 0px #9BC3F1;
+	filter: drop-shadow(0px 0px 3px #3686e3);
 
 	opacity: 0;
 
 	animation-name: fadeIn;
-	animation-duration: 1.4s;
+	animation-duration: 1.8s;
 	animation-delay: .1s;
 	animation-fill-mode: forwards;
 }
@@ -140,7 +193,7 @@ footer{
 	opacity: 0;
 
 	animation-name: fadeIn;
-	animation-duration: 1.6s;
+	animation-duration: 1.8s;
 	animation-delay: .2s;
 	animation-fill-mode: forwards;
 }
@@ -160,3 +213,4 @@ footer{
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
