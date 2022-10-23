@@ -5,7 +5,7 @@ body{
 	font-size: 18px;
 	font-weight: 300;
 	margin: 0;
-	background-color: #d9b1fd;
+	background-color: #e4d4f3;
 }
 
 *{
@@ -15,13 +15,29 @@ body{
 	outline: none;
 }
 
+.body-box{
+
+	max-width: 1014px;
+	margin: 100px auto;
+
+}
+
 .navi-box{
 
 	max-width: 1000px;
 	background-color: #ffffff;
-	margin: 80px auto 10px auto;
+	margin: 10px auto 10px auto;
 	padding: 10px;
-	border-radius: 20px;
+	border-radius: 5px;
+	box-shadow: 
+		0px 5px 15px 0px #c99bf1;
+
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: .1s;
+	animation-fill-mode: forwards;
 }
 
 .titlebar{
@@ -29,15 +45,36 @@ body{
 	background-color: #ffffff;
 	margin: 10px auto 10px auto;
 	padding: 20px 20px 600px 20px;
-	border-radius: 20px;
+	border-radius: 5px;
+	box-shadow: 
+		0px 5px 15px 0px #c99bf1;
+
+	opacity: 0;
+	
+	animation-name: fadeIn;
+	animation-duration: 1.2s;
+	animation-delay: .1s;
+	animation-fill-mode: forwards;
 }
 
 footer{
+
+	color: #FFFFFF;
+
 	max-width: 1000px;
 	background-color: #ffffff;
 	margin: 10px auto 10px auto;
 	padding: 20px 20px 20px 20px;
-	border-radius: 20px;
+	border-radius: 5px;
+	box-shadow: 
+		0px 5px 15px 0px #c99bf1;
+
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: 1.4s;
+	animation-delay: .1s;
+	animation-fill-mode: forwards;
 }
 
 .navi-btn{
@@ -59,9 +96,9 @@ footer{
 	margin-right: 1.5px;
 	margin-bottom: 5px;
 	padding: 10px 20px;
-	border: 3px solid	#c99bf1;
-	border-radius: 20px;
-	transition: all 0.4s ease-in-out;
+	border: 3px solid	#d9b1fd;
+	border-radius: 5px;
+	transition: all 0.5s ease-in-out;
 }
 
 .current-btn {
@@ -81,16 +118,22 @@ footer{
 	margin-bottom: 5px;
 	padding: 10px 20px;
 	border: 3px solid #c99bf1;
-	border-radius: 20px;
+	border-radius: 5px;
 }
 
 .btn-text{
-	animation: fadeIn 1.5s;
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: 1.6s;
+	animation-delay: .2s;
+	animation-fill-mode: forwards;
 }
 
 .navi-btn:hover{
 	color: #FFFFFF;
 	background-position: 100%;
+	border: 3px solid #c99bf1;
 	cursor: pointer;
 }
 
