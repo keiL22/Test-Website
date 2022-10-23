@@ -8,6 +8,7 @@ body{
 	font-weight: 300;
 	margin: 0;
 	background-color: #cae2fe;
+	background-image: url("../Sources/IndexBG.png");
 }
 
 *{

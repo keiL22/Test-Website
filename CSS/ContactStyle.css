@@ -8,6 +8,7 @@ body{
 	font-weight: 300;
 	margin: 0;
 	background-color: #fecae2;
+	background-image: url("../Sources/ContactBG.png");
 }
 
 *{
