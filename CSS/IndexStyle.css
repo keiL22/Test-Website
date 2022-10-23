@@ -64,8 +64,17 @@ footer{
 	transition: all 0.4s ease-in-out;
 }
 
+.btn-text{
+	animation: fadeIn 1.5s;
+}
+
 .navi-btn:hover{
 	color: #FFFFFF;
 	background-position: 100%;
 	cursor: pointer;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
