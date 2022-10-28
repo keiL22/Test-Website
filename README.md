@@ -1,4 +1,4 @@
-## `🌿 PERSONAL PORTFOLIO WEBPAGE 🌿`
+## `🌿 PERSONAL WEBPAGE 🌿`
 [`✦ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛᴀʟ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ`](https://keisukel.github.io/Portfolio/) ◆ `✦ LINK` ◆ `✦ LINK`
 
     Testing Webpage
